@@ -1,0 +1,391 @@
+body {
+	font: 14px 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 23px;
+	color: #727272;
+}
+/* a-link styles*/
+ 
+a, .btn {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus, a:hover {
+	color: #5a5959;
+}
+a {
+	outline: medium none !important;
+	color: #727272;
+}
+.uppercase {
+	text-transform: uppercase;
+}
+/* heading-configs*/
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+	color: #272727;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	color: inherit;
+}
+h1 {
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+h2 {
+	font-size: 35px;
+	line-height: 35px;
+	margin-bottom: 20px;
+	font-style: normal;
+	font-weight: 300;
+}
+h2.less-mar1 {
+	margin-bottom: 3px;
+}
+h3 {
+	font-size: 27px;
+	line-height: 30px;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+h4 {
+	font-size: 22px;
+	line-height: 25px;
+	margin-bottom: 18px;
+	font-style: normal;
+}
+h5 {
+	font-size: 18px;
+	line-height: 23px;
+	margin-bottom: 16px;
+	font-style: normal;
+}
+h6 {
+	font-size: 16px;
+	line-height: 21px;
+	margin-bottom: 14px;
+	font-style: normal;
+}
+.h1, .h2, .h3, h1, h2, h3, h4 {
+	margin-top: 0;
+}
+ul {
+	list-style-type: none;
+}
+/*text-colors */
+.text-white {
+	color: #fff;
+}
+.text-dark {
+	color: #242424;
+}
+.text-light {
+	color: #acacac;
+}
+.text-green {
+	color: #3fc35f;
+}
+
+/* font weight styles*/
+.font-weight-1 {
+	font-weight: 400;
+}
+.font-weight-2 {
+	font-weight: 500;
+}
+
+.site_wrapper {
+	width: 100%;
+	margin: 0 auto 0 auto;
+}
+/*text-box-inner */
+.text-box-inner {
+	width: 100%;
+	float: left;
+	padding: 40px;
+}
+/* button styles for hire! */
+.btn {
+	padding: 10px 36px;
+	margin: 0px;
+	box-shadow: none;
+	border-radius: 0;
+}
+.btn.btn-small {
+	padding: 8px 18px;
+}
+/* button green */
+.btn.btn-green {
+	color: #fff;
+	background-color: #3fc35f;
+}
+/* sticky bg - menus*/
+#header {
+	position: relative;
+	background: #fff;
+	padding: 0;
+	width: 100%;
+	z-index: 999;
+}
+.navbar-brand.less-top-padding {
+    padding: 16px 0 0;
+}	
+/* topbar colors*/
+.topbar {
+	float: left;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+}
+.topbar.light {
+	background-color: #f6f6f6;
+}
+/* topbar toplist*/
+.toplist {
+	float: right;
+	padding: 0px;
+	margin: 0px;
+}
+.toplist li {
+	float: left;
+	color: #8d8c8c;
+	text-align: right;
+	font-size: 14px;
+	margin: 0px;
+	padding: 0 10px 0 10px;
+}
+.toplist li.lineright {
+	border-right: 1px solid #e4e4e4;
+}
+.toplist li a {
+	color: #8d8c8c;
+}
+.toplist li a:hover {
+	color: #272727;
+}
+/* topbar */
+.topbar-padding {
+	padding: 7px 0 15px 0;
+}
+.topbar-right-items {
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 37%;
+}
+/* section background light*/
+.section-light {
+	background-color: #f6f6f6;
+}
+/* footer section dark bg*/
+.section-footer {
+	margin: 0;
+	text-align: center;
+	background-color: #1a1a1a;
+}
+/* padding */
+.sec-padding {
+	padding: 80px 0 80px 0;
+}
+.sec-bpadding {
+	padding-bottom: 120px;
+}
+.sec-moreless-padding {
+	padding: 30px 0 30px 0;
+}
+/*overlays*/
+.section-overlay {
+	position: relative;
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+	left: 0px;
+	top: 0px;
+	float: left;
+	z-index: 2;
+}
+.overlay {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index: 10;
+}
+/* background opacity*/
+.bg-opacity {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+/* Overlay Background colors
+ ------------------------------ */
+.section-overlay.dark {
+	background-color: rgba(0, 0, 0, 0.7);
+}
+/*scroll to the top */
+
+.scrollup {
+	width: 40px;
+	height: 40px;
+	opacity: 1;
+	position: fixed;
+	bottom: 22px;
+	right: 20px;
+	display: none;
+	text-indent: -9999px;
+	background: #3fc35f url(../images/scroll-top-arrow.png) no-repeat 15px 16px;
+	z-index: 999;
+}
+.col-centered{
+	float: none;
+	margin: 0 auto;
+	padding-top: 8em;
+}
+
+/* auth.css */
+.form-control:focus {
+
+    color: #000;
+    background-color: #fff;
+    border:2px solid #3fc35f;
+    outline: 0;
+    box-shadow: none;
+
+}
+
+.btn{
+  background: #3fc35f;
+  border: #3fc35f;
+}
+.btn:hover {
+  background: #3fc35f;
+  border: #3fc35f;
+}
+
+/* LAYOUTS */
+
+/*layout styles*/
+
+/* motel info*/
+.header-inner {
+	position: relative;
+	width: 100%;
+	height: 300px;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index: 0;
+	overflow: hidden
+}
+.header-inner .overlay {
+	position: absolute;
+	z-index: 1;
+}
+.header-inner .inner {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+	float: left;
+	z-index: 3;
+}
+.header-inner.img1 {
+	background: url(../images/147.jpg) center top no-repeat;
+}
+/*inner page header title*/
+.header-inner .title {
+	padding: 100px 0 0 0;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+}
+.motel-info {
+	width: 100%;
+	padding:0px;
+	margin:0px;
+	float:left;
+}
+.motel-info span {
+	margin-right:10px;
+}
+
+/* login */
+.auth-banner {
+	position: relative;
+	width: 100%;
+	height: 68vh;
+	padding: 0px;
+	margin: 0px;
+	float: left;
+	z-index: 0;
+	overflow: hidden
+}
+.auth-banner .overlay {
+	position: absolute;
+	z-index: 1;
+}
+.auth-banner .inner {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin: 0px;
+	float: left;
+	z-index: 3;
+}
+.auth-banner.img1 {
+	background: url(../images/147.jpg) center top no-repeat;
+}
+/*inner page header title*/
+.auth-banner .title {
+	padding: 100px 0 0 0;
+	margin: 0px;
+	font-size: 30px;
+	font-weight: 700;
+}
+
+/* about parallax section - contact html*/
+
+.parallax-about-section {
+	width: 100%;
+	float: left;
+	padding: 0;
+	margin: 0px;
+	text-align: center;
+	background: url("https://res.cloudinary.com/yugillc/image/upload/v1668818041/motel_a6espy.jpg");
+	background-attachment: fixed;
+	background-origin: initial;
+	background-clip: initial;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 100% 0;
+	background-position: center;
+	z-index: 1;
+}
+
+/* COLOR-CONFIG */
+ul.nav.green > li > a.active {
+    color: #3fc35f;
+}
+ul.nav.green > li > a.active:hover {
+    color: #3fc35f;
+}
+.navbar-default.green .navbar-nav > li > a:focus, .navbar-default.green .navbar-nav > li > a:hover {
+    color: #3fc35f;
+}
+.ms-layer.sbut13 {
+    background-color: #3fc35f;
+}
+.text-green {
+    color: #3fc35f;
+}
